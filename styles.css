@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #feb47b;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.navbar li a:hover {
+    color: #ff7e5f;
+}
+
+.button {
+    background-color: #ff7e5f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #feb47b;
+    border: white solid 0.7px;
+}
+/* ... Previous CSS styles ... */
+
+.hero {
+    background: url('hero-background.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.description, .banner {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.description h2, .banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.button {
+    /* ... Button styles ... */
+}
+/* ... Previous CSS styles ... */
+
+/* Button hover animation */
+.button:hover {
+    background-color: #feb47b;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* Stylish heading for hero section */
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    animation: fadeIn 1s ease-out;
+}
+
+/* Stylish heading for description and banner sections */
+.description h2, .banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    color: #ff7e5f;
+    animation: fadeIn 1s ease-out;
+}
+
+/* Description paragraph */
+.description p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* ... Other CSS styles ... */
+
+
+section {
+    padding: 50px 0;
+}
+
+footer {
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-out;
+}
